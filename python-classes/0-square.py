@@ -4,5 +4,5 @@
 
 class Square:
     """This module defines a Square class"""
-    def __init__(self,size):
+    def __init__(self, size):
         self.__size = size

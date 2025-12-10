@@ -17,7 +17,7 @@ class Square:
     @property
     def size(self):
         if not isinstance(self.__size, int):
-            raise Exception("size must be an integer")  
+            raise Exception("size must be an integer")
         if self.__size < 0:
             raise Exception("size must be >= 0")
         return self.__size
@@ -25,7 +25,7 @@ class Square:
     @size.setter
     def size(self, value):
         if not isinstance(self.__size, int):
-            raise TypeError("size must be an integer")  
+            raise TypeError("size must be an integer")
         if self.__size < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
